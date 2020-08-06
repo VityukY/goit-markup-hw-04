@@ -136,11 +136,8 @@ li {
 .site-nav .contacts {
 	margin-left: auto;
 }
-.site-nav .item-contact {
-}
 .item-contact .contact-icon {
 	margin-right: 10px;
-	outline: 1px solid red;
 }
 
 .contact-icon {
@@ -153,7 +150,6 @@ li {
 	min-height: 600px;
 	margin-left: auto;
 	margin-right: auto;
-	outline: 1px solid red;
 
 	background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)),
 		url(../img-origin/Header-optimize.jpg);
@@ -353,8 +349,11 @@ li {
 	border-radius: 4px;
 	width: 170px;
 	height: 90px;
-	padding: 20px 63px;
+
 	color: #afb1b8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .client .client-logo {
 	fill: currentColor;
