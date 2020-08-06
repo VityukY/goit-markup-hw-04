@@ -430,6 +430,11 @@ li {
 .footer .socialnetwork-icon:not(:last-child) {
 	margin-right: 10px;
 }
+.footer .adress,
+.footer .phone {
+	display: flex;
+	margin-bottom: 9px;
+}
 
 /* ПОРТФОЛИО */
 
