@@ -475,6 +475,9 @@ header {
 }
 
 /*портфолио работ*/
+.portfolio-border {
+	border-bottom: 1px solid #eeeeee;
+}
 .projects {
 	padding-bottom: 94px;
 }
