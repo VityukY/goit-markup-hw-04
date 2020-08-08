@@ -270,6 +270,9 @@ header {
 
 	text-align: center;
 }
+.team .item {
+	background-color: white;
+}
 .team .item:not(:last-child) {
 	margin-right: 30px;
 }
