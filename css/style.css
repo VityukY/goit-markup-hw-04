@@ -87,6 +87,10 @@ li {
 	color: var(--main-text-color);
 }
 /*навиационная панель вся */
+header {
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
 .site-nav .conteiners {
 	display: flex;
 	align-items: center;
@@ -95,8 +99,6 @@ li {
 .site-nav .logo {
 	color: var(--main-text-color);
 	font-weight: 700;
-	padding-top: 24px;
-	padding-bottom: 25px;
 }
 
 /* навиационная панель - навигация сайта*/
@@ -115,8 +117,7 @@ li {
 
 .site-nav .link {
 	display: block;
-	padding-top: 32px;
-	padding-bottom: 32px;
+
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
